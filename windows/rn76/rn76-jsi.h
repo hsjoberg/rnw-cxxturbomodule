@@ -23,14 +23,3 @@ struct Rn76PackageProvider
 };
 
 }
-
-
-
-// This should be in rn76-jsi.cpp, but it's not working
-namespace facebook::react {
-
-double Rn76::multiply(jsi::Runtime &rt, double a, double b) {
-    return a * b;
-}
-
-} // namespace facebook::react

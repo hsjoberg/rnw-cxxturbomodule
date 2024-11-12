@@ -99,6 +99,11 @@
     <ClInclude Include="AutolinkedNativeModules.g.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="targetver.h" />
+
+    <ClInclude Include="..\..\..\windows\rn76\rn76-jsi.h" />
+    <ClInclude Include="..\..\..\windows\rn76\codegen-jsi\rn76JSI.h">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rn76Example.cpp" />
@@ -110,6 +115,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">Create</PrecompiledHeader>
+    </ClCompile>
+
+    <ClCompile Include="..\..\..\windows\rn76\rn76-jsi.cpp" />
+    <ClCompile Include="..\..\..\windows\rn76\codegen-jsi\rn76JSI-generated.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

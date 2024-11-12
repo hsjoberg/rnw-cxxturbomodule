@@ -107,10 +107,6 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="targetver.h" />
-
-
-    <ClInclude Include="rn76-jsi.h" />
-    <ClInclude Include="codegen-jsi\rn76JSI.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rn76.cpp" />
@@ -121,14 +117,6 @@
       <DependentUpon>ReactPackageProvider.idl</DependentUpon>
     </ClCompile>
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
-
-
-    <!-- <ClCompile Include="rn76-jsi.cpp">
-      <PrecompiledHeader>Use</PrecompiledHeader>
-    </ClCompile> -->
-    <!-- <ClCompile Include="codegen-jsi\rn76JSI.cpp">
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-    </ClCompile> -->
   </ItemGroup>
   <ItemGroup>
     <Midl Include="ReactPackageProvider.idl" />

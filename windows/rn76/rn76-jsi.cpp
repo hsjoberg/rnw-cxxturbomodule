@@ -4,7 +4,7 @@
 namespace facebook::react {
 
 double Rn76::multiply(jsi::Runtime &rt, double a, double b) {
-    return a * b;
+    return 123; //a * b;
 }
 
 } // namespace facebook::react

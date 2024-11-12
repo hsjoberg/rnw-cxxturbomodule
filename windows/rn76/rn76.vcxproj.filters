@@ -27,12 +27,21 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="rn76-jsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codegen-jsi\rn76JSI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="rn76.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rn76-jsi.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
